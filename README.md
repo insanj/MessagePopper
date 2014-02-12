@@ -1,7 +1,7 @@
 MessagePopper
 =======================
 
-Return to Conversation List when leaving the app. Idea from [@tedco21](http://twitter.com/tedco21).
+Return to Messages Conversation List when entering the app. Idea from [@tedco21](http://twitter.com/tedco21).
 
 ---------------------------------------
 	Simplified BSD License
