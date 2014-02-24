@@ -4,8 +4,8 @@ Pre-Depends: firmware (>= 7.0)
 Depends: mobilesubstrate
 Version: 1.0.1
 Architecture: iphoneos-arm
-Description: Leave threads when opening Messages.
- Return to Conversation List when opening the app.
-Maintainer: Julian Weiss <me@insanj.com>
+Description: Leave threads when closing Messages.
+ Return to Conversation List when closing the Messages app.
+Maintainer: Julian Weiss <insanjmail@gmail.com>
 Author: Julian (insanj) Weiss
 Section: Tweaks
