@@ -2,10 +2,10 @@ Package: com.insanj.messagepopper
 Name: MessagePopper
 Pre-Depends: firmware (>= 7.0)
 Depends: mobilesubstrate
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
-Description: Leave threads when leaving Messages.
- Return to Conversation List when leaving the app.
+Description: Leave threads when opening Messages.
+ Return to Conversation List when opening the app.
 Maintainer: Julian Weiss <me@insanj.com>
 Author: Julian (insanj) Weiss
 Section: Tweaks
