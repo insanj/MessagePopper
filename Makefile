@@ -12,3 +12,4 @@ include $(THEOS_MAKE_PATH)/tweak.mk
 
 internal-after-install::
 	install.exec "killall -9 MobileSMS"
+	

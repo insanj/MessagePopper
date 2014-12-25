@@ -1,6 +1,6 @@
 # MessagePopper
 
-Return to Messages Conversation List when entering the app. Idea from [@tedco21](http://twitter.com/tedco21).
+Always open to your conversation list in Messages. Thanks to [@tedco21](http://twitter.com/tedco21) for the idea.
 
 ## License
 
