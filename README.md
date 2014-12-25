@@ -1,9 +1,9 @@
-MessagePopper
-=======================
+# MessagePopper
 
 Return to Messages Conversation List when entering the app. Idea from [@tedco21](http://twitter.com/tedco21).
 
----------------------------------------
+## License
+
 	Simplified BSD License
 	Copyright (c) 2014, Julian Weiss
 	All rights reserved.

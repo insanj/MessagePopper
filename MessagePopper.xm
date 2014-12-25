@@ -1,21 +1,10 @@
-#import <UIKit/UIKit.h>
-#import <objc/runtime.h>
+#import "MessagePopper.h"
 
-@interface CKMessagesController : UIViewController
--(void)showConversationList:(BOOL)animated;
-@end
+%hook CKMessagesController
 
-@interface SMSApplication : UIApplication <UIApplicationDelegate>
-@property (nonatomic,retain) CKMessagesController* messagesController;
--(void)_prepareForSuspend;
-@end
-
-
-%hook SMSApplication        
-
--(void)_prepareForSuspend{    
+- (void)prepareForSuspend {
     NSLog(@"[MessagePopper] Returning to Conversation list on application suspension...");
-    [self.messagesController showConversationList:NO];
+	[self showConversationList:NO];
 	%orig();
 }
 
